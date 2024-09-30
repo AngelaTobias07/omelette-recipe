@@ -50,7 +50,7 @@
       <div class = "nutrition-label">
         <h3 [style] = "recipeLabel">Nutrition</h3>
         <p class ="table-description">The table below shows nutritional values per serving without additional fillings</p>
-        <table class='table' *ngIf="macronutrients">
+        <table class='table'>
           <tbody>
             <tr *ngFor='let nutrient of macronutrients'>
               <td>
